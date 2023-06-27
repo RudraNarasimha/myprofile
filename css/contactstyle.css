@@ -1,0 +1,68 @@
+body {
+  background-image: url(https://media.istockphoto.com/photos/woman-hand-holding-icon-customer-support-concept-copy-space-picture-id1141639313?b=1&k=20&m=1141639313&s=170667a&w=0&h=IgZAh25v60C7OkxyVKQWgOWfRRbs_Nfv9hwXpJH2ZRo=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head {
+  font-size: 2.5rem;
+  color: #133b5c;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-style: solid;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
+  color: #133b5c;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #eee;
+}
+.name {
+  padding: 4px;
+  font-size: 30px;
+  border-width: 2px;
+  border-color: #ffffff;
+  background-color: #e8feff;
+  color: #082032;
+  border-style: solid;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
+  text-shadow: -2px 0 0 rgba(66, 66, 66, 0);
+  filter: opacity(30%);
+}
+.name:focus {
+  outline: none;
+}
+.name::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 3;
+  color: #082032;
+  text-align: center;
+}
+.name::-webkit-input-value {
+  font-size: 15px;
+  line-height: 3;
+  text-align: center;
+}
+.form {
+  width: 30%;
+}
+hr {
+  border-style: dotted;
+  border-width: 6px;
+  width: 4%;
+  border-top: 0;
+  border-color: #082032;
+}
